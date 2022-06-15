@@ -7,14 +7,12 @@ Information in accordance with Section 5 TMG
 
 ## Contact Information
 
-<address>
-Viktor Papara<br>
-Rockefellerstr. 72<br>
-80937 München<br><br>
-Telephone: +49 163 186 3086<br>
-E-Mail: <a href="mailto:contact.viktor.papara@gmail.com">contact.viktor.papara@gmail.com</a><br>
-Internet address: <a href="https://eucalypto.net">eucalypto.net</a>
-</address>
+Viktor Papara\
+Rockefellerstr. 72\
+80937 München\
+\
+E-Mail: viktor@how-to-human.com\
+Internet address: how-to-human.com
 
 ## Graphics and Image Sources
 
