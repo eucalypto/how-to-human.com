@@ -3,6 +3,23 @@ title: Privacy Policy
 comments: false
 ---
 
+
+One of the principles of GDPR is that you, the website visitor, understand what personal data is used from you and for what reason.
+
+This website is a so-called static website. The server simply stores and provides static documents, that get displayed by your browser. Static here means that there are no server-side computations, everything happens on your local machine in your browser. 
+
+There are no data collected or stored other than the metadata that is generated from your browser fetching those files, like your IP address, the time when they were fetched, the kind of web browser, and so on.
+
+They may be stored in log files to ensure the reliability and availability of this site, by the hosting service Netcup GmbH. Other than that, those data are not used for  other purposes and are deleted regularly.
+
+This being a static website, we don't use any cookies or other tracking mechanisms. Nor will you see any ad here. This is the reason you don't get any commenting functionality here. Those would require the storage and use of a lot of personal data.
+
+If the website seems to behave "dynamically", it is an illusion made by your browser and the files it downloaded to display this site. 
+
+---
+
+The following is copied and adapted from a GDPR page generator because the law demands it.
+
 <p>We are very delighted that you have shown interest in our enterprise. Data protection is of a particularly high priority for the management of the Viktor Papara (Privatperson). The use of the Internet pages of the Viktor Papara (Privatperson) is possible without any indication of personal data; however, if a data subject wants to use special enterprise services via our website, processing of personal data could become necessary. If the processing of personal data is necessary and there is no statutory basis for such processing, we generally obtain consent from the data subject.</p>
 
 <p>The processing of personal data, such as the name, address, e-mail address, or telephone number of a data subject shall always be in line with the General Data Protection Regulation (GDPR), and in accordance with the country-specific data protection regulations applicable to the Viktor Papara (Privatperson). By means of this data protection declaration, our enterprise would like to inform the general public of the nature, scope, and purpose of the personal data we collect, use and process. Furthermore, data subjects are informed, by means of this data protection declaration, of the rights to which they are entitled.</p>
