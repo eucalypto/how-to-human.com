@@ -11,5 +11,12 @@ I've copied the hugo executable into the root directory of this project, but exc
 
 After cloning, you need to load the theme as a submodule:
 ```bash
-git submodule add https://github.com/eucalypto/beautifulhugo.git beautifulhugo
+git submodule update
+```
+
+or if it already is registered:
+```bash
+git submodule init
+<and/or>
+git submodule update
 ```
