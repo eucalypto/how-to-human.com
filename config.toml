@@ -76,7 +76,7 @@ weight = 3
 
 # deult parameter
 [params]
-logo = "images/logo.png"
+#logo = "images/logo.png" # if given, logo will be displayed instead of the homepage name on the top left
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"
@@ -88,16 +88,17 @@ preloader = true
 search = true
 # about author
 author = "Viktor Papara"
-author_image = "images/banner-img.png"
+author_image = "" # only relevant for layout "2"
 bio = "I’m a Freelance Interactive Art Director based in France. Focusing across branding and identity, digital and print."
 # Contact info
-mobile = "+90 000 333 22"
-email = "exmaple@ymail.com"
-address = "6 rip carl Avenue CA 90733"
+#mobile = "+90 000 333 22"
+#email = "exmaple@ymail.com"
+#address = "6 rip carl Avenue CA 90733"
 # Contact Form Action
 contact_form_action = "#"
 # copyright
 copyright = "Copyright &copy; 2022 a theme by [themefisher.com](https://themefisher.com)"
+legal_and_privacy = "[Legal](/legal) | [Privacy](/privacy)"
 
 # Instagram feed
 #[params.instafeed]
