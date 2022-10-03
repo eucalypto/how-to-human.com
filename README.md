@@ -19,3 +19,9 @@ git submodule update
 ```
 
 I've forked the theme so that there won't be any unexpected changes for me: https://github.com/eucalypto/beautifulhugo  
+
+Add Parsa theme as submodule:
+
+```bash
+/how-to-human.com$ git submodule add git@github.com:eucalypto/parsa-hugo.git themes/parsa-hugo
+```
