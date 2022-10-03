@@ -1,14 +1,13 @@
 ---
 title: "Friends vs Self-Sufficiency"
-author: ""
-type: ""
 date: 2022-05-22T21:15:50+02:00
-subtitle: ""
+type: "post"
 image: "/post/2022-05-22-friends/friends.jpg"
-tags: []
+categories:
+ - "Relationship"
+tags:
+ - "Friends"
 ---
-
-![image](/post/2022-05-22-friends/friends.jpg)
 
 How much can I rely on my friends? How much have I do be able to do alone? How much can I expect from them? How much do I want to ask of them? Wat do I not want to ask/get from my friends?
 
