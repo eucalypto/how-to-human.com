@@ -49,30 +49,9 @@ link = "plugins/search/search.js"
 
 # navigation
 [[menu.main]]
-name = "Homepage"
-url = ""
-weight = 1
-hasChildren = true
-
-[[menu.main]]
-parent = "Homepage"
-name = "Homepage 1"
-url = "homepage/home-1/"
-
-[[menu.main]]
-parent = "Homepage"
-name = "Homepage 2"
-url = "homepage/home-2/"
-
-[[menu.main]]
 name = "About"
 url = "about/"
 weight = 2
-
-[[menu.main]]
-name = "Contact"
-url = "contact/"
-weight = 3
 
 # deult parameter
 [params]
