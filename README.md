@@ -41,7 +41,7 @@ I'm not using git to deploy the site, but it's still good to have the actual "ar
 
 ### Actual Deployment
 #### Via FTP
-I'm using Filezilla and I've created an extra ftp account how-to-human-ftp that I'm using for the credentials. In Filezilla, I've set up the "Explicit FTP over TLS" option, to make the FTP secure. Then I simply have to copy everything from `/public/*` (except `.git/`) to `/httpdocs/*` on the ftp side.
+I'm using Filezilla and I've created an extra ftp account how-to-human-ftp that I'm using for the credentials. In Filezilla, I've set up the "Explicit FTP over TLS" option, to make the FTP secure. Then I simply have to copy everything from `/public/*` to `/*` on the ftp side.
 
 #### Not via git
-My hoster allows me to create a git repository that I can push changes to. But it uses the credentials of the single webmaster account. I would like to use separate credentials. So I.m using the FTP solution above. 
+My hosting provider allows me to create a git repository that I can push changes to. But it uses the credentials of the single webmaster account. I would like to use separate credentials. So I.m using the FTP solution above. 
