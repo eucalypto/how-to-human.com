@@ -17,5 +17,5 @@ For me, those are also great indicators of my mental health. When I’m stressed
 
 Now, with the knowledge of the 7 C’s I’m way better at catching myself drifting into unhealthy stress. 🙋
 
-♥️ to @hilaryjacobshendel and her book “It’s Not Always Depression”
+♥️ to [Hilary Jacobs Hendel](https://www.hilaryjacobshendel.com/) and her book “It’s Not Always Depression”
 

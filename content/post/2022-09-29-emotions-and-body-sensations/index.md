@@ -13,8 +13,8 @@ tags:
 
 Your body is a great instrument tool ⚒️ to figure out which emotion you are currently experiencing. Emotions show themselves not only in the mind but also come with specific body sensations that are individual.
 
-Knowing how for example sadness feels like in my body helps me catching myself feeling sad just before my usual coping mechanisms kick in. 😅
+Knowing how for example sadness feels like in my body helps me to catch myself feeling sad just before my usual coping mechanisms kick in. 😅
 
-This idea comes from hilaryjacobshendel 's book 📚 "It's Not Always Depression", which I can highly recommend. 👍
+This idea comes from [Hilary Jacobs Hendel's](https://www.hilaryjacobshendel.com/) book 📚 "It's Not Always Depression", which I can highly recommend. 👍
 
 

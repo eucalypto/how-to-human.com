@@ -2,6 +2,7 @@ _site
 .sass-cache
 vendor
 .idea/
+.DS_Store
 
 # Generated files by hugo
 /public/

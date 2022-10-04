@@ -123,7 +123,7 @@ Rockefellerstr. 72
 Deutschland
 Phone: +49 163 186 3086
 Email: contact.viktor.papara@gmail.com
-Website: eucalypto.net
+Website: how-to-human.com
 
 3. Collection of general data and information
    The website of the Viktor Papara (Privatperson) collects a series of general data and information when a data subject
