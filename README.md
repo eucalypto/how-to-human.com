@@ -25,3 +25,14 @@ Add Parsa theme as submodule:
 ```bash
 /how-to-human.com$ git submodule add git@github.com:eucalypto/parsa-hugo.git themes/parsa-hugo
 ```
+
+
+## Deployment
+### Local preparations
+
+I can publish the generated html pages from ./public/ into a git repository that I set up at my hoster. For that I need a separate branch named `public`.
+
+Since hugo generates the files into the folder `public`, I can use git worktree to check out the branch into this folder:
+```bash
+git worktree add public/ public
+```
