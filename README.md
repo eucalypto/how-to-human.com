@@ -3,10 +3,10 @@
 This version is build with Hugo:
 
 ```bash
-hugo v0.104.2-84cbe724983b4b6153fd39aae0888cbb89a56cda linux/amd64 BuildDate=2022-09-29T10:31:09Z VendorInfo=gohugoio
+hugo v0.104.3-58b824581360148f2d91f5cc83f69bd22c1aa331 darwin/amd64 BuildDate=2022-10-04T14:25:23Z VendorInfo=gohugoio
 ```
 
-https://github.com/gohugoio/hugo/releases/tag/v0.99.1
+https://github.com/gohugoio/hugo/releases/tag/v0.104.3
 
 I've copied the hugo executable into the root directory of this project, but excluded it from git. You should be able to
 download and run the version above. :)
