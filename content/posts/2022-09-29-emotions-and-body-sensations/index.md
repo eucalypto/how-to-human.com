@@ -3,7 +3,7 @@ title: "Body as Emotional Instrument"
 date: 2022-09-29T14:46:10+06:00
 description: "This is meta description"
 type: "post"
-image: "/post/2022-09-29-emotions-and-body-sensations/2022-09-29 emotions and body sensations.jpeg"
+image: "/posts/2022-09-29-emotions-and-body-sensations/2022-09-29 emotions and body sensations.jpeg"
 tags:
   - "Emotions"
   - "Mindful"

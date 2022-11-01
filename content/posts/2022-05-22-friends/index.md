@@ -2,7 +2,7 @@
 title: "Friends vs Self-Sufficiency"
 date: 2022-05-22T14:46:10+06:00
 type: "post"
-image: "/post/2022-05-22-friends/friends.jpg"
+image: "/posts/2022-05-22-friends/friends.jpg"
 tags:
  - "Friends"
  - "Relationship"
