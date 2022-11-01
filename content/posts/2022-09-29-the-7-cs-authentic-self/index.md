@@ -3,7 +3,7 @@ title: "The 7 C's of the Authentic Self"
 date: 2022-09-29T14:46:10+06:00
 description: "This is meta description"
 type: "post"
-image: "/posts/2022-09-29-the-7-cs-authentic-self/image.jpg"
+image: "/posts/2022-09-29-the-7-cs-authentic-self/image.webp"
 tags:
   - "Emotions"
   - "Observe"
