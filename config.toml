@@ -55,7 +55,7 @@ weight = 2
 
 # deult parameter
 [params]
-#logo = "images/logo.png" # if given, logo will be displayed instead of the homepage name on the top left
+logo = "images/logo_header.png" # if given, logo will be displayed instead of the homepage name on the top left
 home = "Home"
 # theme layout ( two layout is available, "1" and "2" )
 layout = "1"
