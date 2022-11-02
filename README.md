@@ -1,15 +1,22 @@
 # how-to-human.com
 
+
+## Get Hugo Executable
 This version is build with Hugo:
 
 ```bash
-hugo v0.104.3-58b824581360148f2d91f5cc83f69bd22c1aa331 darwin/amd64 BuildDate=2022-10-04T14:25:23Z VendorInfo=gohugoio
+how-to-human.com % ./hugo version
+hugo v0.105.0-0e3b42b4a9bdeb4d866210819fc6ddcf51582ffa darwin/amd64 BuildDate=2022-10-28T12:29:05Z VendorInfo=gohugoio
 ```
 
-https://github.com/gohugoio/hugo/releases/tag/v0.104.3
+https://github.com/gohugoio/hugo/releases/tag/v0.105.0
+
+On Mac you may get an error starting the binary because it cannot be verified. After this unsuccessful start, go to Mac settings -> Security, and there should be a button to allow the execution of this binary.
 
 I've copied the hugo executable into the root directory of this project, but excluded it from git. You should be able to
 download and run the version above. :)
+
+## Theme as submodule
 
 After cloning, you need to load the theme as a submodule.
 
