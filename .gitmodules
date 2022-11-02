@@ -1,3 +1,6 @@
 [submodule "themes/beautifulhugo"]
 	path = themes/beautifulhugo
 	url = https://github.com/eucalypto/beautifulhugo.git
+[submodule "themes/parsa-hugo"]
+	path = themes/parsa-hugo
+	url = git@eucalypto.github.com:eucalypto/parsa-hugo.git
