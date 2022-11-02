@@ -20,17 +20,23 @@ download and run the version above. :)
 
 After cloning, you need to load the theme as a submodule.
 
-```bash
+```shell
 git submodule init
 git submodule update
 ```
 
-I've forked the theme so that there won't be any unexpected changes for me: https://github.com/eucalypto/beautifulhugo  
+### Parsa
 
 Add Parsa theme as submodule:
 
 ```bash
 /how-to-human.com$ git submodule add git@github.com:eucalypto/parsa-hugo.git themes/parsa-hugo
+```
+
+I've used the parsa github repo and "forked" it into a private repository. I'm using this private git repository for several webpages and so I set up different branches for each website. For this website checkout:
+
+```shell
+git checkout how-to-human.com
 ```
 
 
