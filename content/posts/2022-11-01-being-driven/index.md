@@ -23,3 +23,5 @@ I often find myself in a state of being driven. Typically, when there's a clear 
 Why am I so much against being driven? Partly because I value curiosity and exploration. And being driven is toxic for both of them.
 
 Let's talk on Twitter: https://twitter.com/ViktorPapara/status/1587565685839986690
+
+---
