@@ -21,3 +21,7 @@ Here our use of the term may help. "Being driven" has no active form. So we're o
 I often find myself in a state of being driven. Typically, when there's a clear task to do. It sometimes even feels like flow, but with the difference that I'm more exhausted and annoyed.
 
 Why am I so much against being driven? Partly because I value curiosity and exploration. And being driven is toxic for both of them.
+
+---
+
+Let's talk on Twitter: https://twitter.com/ViktorPapara/status/1587565685839986690
