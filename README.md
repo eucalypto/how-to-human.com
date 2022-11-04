@@ -53,6 +53,13 @@ git worktree add public/ public
 I'm not using git to deploy the site, but it's still good to have the actual "artefact" also versioned here in git. :)
 
 ### Actual Deployment
+
+#### Via GitHub
+
+My hosting provider allows me to set up a GitHub repository that will be cloned and the current main commit being hosted. After setting up this connection with my provider, I can copy from the settings a webhook that I added in the GitHub repository to be executed on all pushes.
+
+So I can deploy the site simply by pushing to this GitHub repo. The webhook then triggers the netcup's git clone to pull the changes and deploy them to the web server.
+
 #### Via FTP
 I'm using Filezilla and I've created an extra ftp account how-to-human-ftp that I'm using for the credentials. In Filezilla, I've set up the "Explicit FTP over TLS" option, to make the FTP secure. Then I simply have to copy everything from `/public/*` to `/*` on the ftp side.
 
