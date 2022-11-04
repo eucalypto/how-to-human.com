@@ -56,6 +56,14 @@ I'm not using git to deploy the site, but it's still good to have the actual "ar
 
 #### Via GitHub
 
+Preparation:
+
+Set up https://github.com/eucalypto/public.how-to-human.com as the repository for the git submodule in public/ :
+
+```
+how-to-human.com % git submodule add git@github.com:eucalypto/public.how-to-human.com.git public
+```
+
 My hosting provider allows me to set up a GitHub repository that will be cloned and the current main commit being hosted. After setting up this connection with my provider, I can copy from the settings a webhook that I added in the GitHub repository to be executed on all pushes.
 
 So I can deploy the site simply by pushing to this GitHub repo. The webhook then triggers the netcup's git clone to pull the changes and deploy them to the web server.
