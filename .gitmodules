@@ -3,7 +3,7 @@
 	url = https://github.com/eucalypto/beautifulhugo.git
 [submodule "themes/parsa-hugo"]
 	path = themes/parsa-hugo
-	url = git@eucalypto.github.com:eucalypto/parsa-hugo.git
+	url = git@github.com:eucalypto/parsa-hugo.git
 [submodule "public"]
 	path = public
-	url = git@eucalypto.github.com:eucalypto/public.how-to-human.com.git
+	url = git@github.com:eucalypto/public.how-to-human.com.git
