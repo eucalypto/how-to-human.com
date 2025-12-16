@@ -4,6 +4,8 @@
 [submodule "themes/parsa-hugo"]
 	path = themes/parsa-hugo
 	url = git@github.com:eucalypto/parsa-hugo.git
+	branch = how-to-human.com
 [submodule "public"]
 	path = public
 	url = git@github.com:eucalypto/public.how-to-human.com.git
+	branch = main
