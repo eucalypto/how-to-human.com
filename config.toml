@@ -11,6 +11,12 @@ pagerSize = 6
 [outputs]
 home = ["HTML", "RSS", "JSON"]
 
+ignoreFiles = [
+  "setup-submodules\\.sh",
+  "README\\.md",
+  "\\.git/.*"
+]
+
 [markup.goldmark.renderer]
 unsafe = true
 

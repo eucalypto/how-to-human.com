@@ -1,75 +1,54 @@
 # how-to-human.com
 
+## Setup after clone
 
-## Get Hugo Executable
-This version is build with Hugo:
-
-```bash
-how-to-human.com % ./hugo version
-hugo v0.105.0-0e3b42b4a9bdeb4d866210819fc6ddcf51582ffa darwin/amd64 BuildDate=2022-10-28T12:29:05Z VendorInfo=gohugoio
-```
-
-https://github.com/gohugoio/hugo/releases/tag/v0.105.0
-
-On Mac you may get an error starting the binary because it cannot be verified. After this unsuccessful start, go to Mac settings -> Security, and there should be a button to allow the execution of this binary.
-
-I've copied the hugo executable into the root directory of this project, but excluded it from git. You should be able to
-download and run the version above. :)
-
-## Theme as submodule
-
-After cloning, you need to load the theme as a submodule.
-
-```shell
-git submodule init
-git submodule update
-```
-
-### Parsa
-
-Add Parsa theme as submodule:
+After a git clone, run 
 
 ```bash
-/how-to-human.com$ git submodule add git@github.com:eucalypto/parsa-hugo.git themes/parsa-hugo
+bash setup-submodules.sh
 ```
 
-I've used the parsa github repo and "forked" it into a private repository. I'm using this private git repository for several webpages and so I set up different branches for each website. For this website checkout:
+to setup the git submodules for the public generated files and the parsa theme.
 
-```shell
-git checkout how-to-human.com
+## Hugo Version
+This blog is built with Hugo:
+
+```bash
+hugo version
+hugo v0.152.2+extended+withdeploy darwin/arm64 BuildDate=2025-10-24T15:31:49Z VendorInfo=brew
 ```
 
+I started simply installing Hugo with brew. Previously I used to download the binary, but not anymore.
+
+## Local Development
+
+To start local development, run:
+
+```bash
+hugo serve
+```
+
+This will build the website in `public/` and create a local server at http://localhost:1313/ and host the generated website.
 
 ## Deployment
-### Local preparations
 
-I can publish the generated html pages from ./public/ into a git repository that I set up at my hoster. For that I need a separate branch named `public`.
+Once you're satisfied with the locally served result of hugo, you need to run it again to generate the static files again for public hosting:
 
-Since hugo generates the files into the folder `public`, I can use git worktree to check out the branch into this folder:
 ```bash
-git worktree add public/ public
+hugo build
 ```
 
-I'm not using git to deploy the site, but it's still good to have the actual "artefact" also versioned here in git. :)
+Then go to public/ folder.
+Since we've set up the public files as a git submodule, you can commit and push your changes to the submodule with 
 
-### Actual Deployment
-
-#### Via GitHub
-
-Preparation:
-
-Set up https://github.com/eucalypto/public.how-to-human.com as the repository for the git submodule in public/ :
-
-```
-how-to-human.com % git submodule add git@github.com:eucalypto/public.how-to-human.com.git public
+```bash
+git commit -a
+git push
 ```
 
-My hosting provider allows me to set up a GitHub repository that will be cloned and the current main commit being hosted. After setting up this connection with my provider, I can copy from the settings a webhook that I added in the GitHub repository to be executed on all pushes.
+This will push the generated static site files to 
+https://github.com/eucalypto/public.how-to-human.com
+
+This GitHub repository is set up so that it executes a git hook on push that triggers the hoster to fetch the current state and host the files.
 
 So I can deploy the site simply by pushing to this GitHub repo. The webhook then triggers the netcup's git clone to pull the changes and deploy them to the web server.
-
-#### Via FTP
-I'm using Filezilla and I've created an extra ftp account how-to-human-ftp that I'm using for the credentials. In Filezilla, I've set up the "Explicit FTP over TLS" option, to make the FTP secure. Then I simply have to copy everything from `/public/*` to `/*` on the ftp side.
-
-#### Not via git
-My hosting provider allows me to create a git repository that I can push changes to. But it uses the credentials of the single webmaster account. I would like to use separate credentials. So I.m using the FTP solution above. 
