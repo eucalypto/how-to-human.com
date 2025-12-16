@@ -4,9 +4,8 @@ languageCode = "en-us"
 title = "How To Human"
 theme = "parsa-hugo"
 summaryLength = "10"
-paginate = 6
-# google analytics
-#googleAnalytics = "" # example : UA-123-45
+[pagination]
+pagerSize = 6
 
 # output
 [outputs]
@@ -76,7 +75,7 @@ bio = "I’m a Freelance Interactive Art Director based in France. Focusing acro
 # Contact Form Action
 contact_form_action = "#"
 # copyright
-copyright = "Copyright &copy; 2022 a theme by [themefisher.com](https://themefisher.com)"
+copyright = "Copyright &copy; 2025 a theme by [themefisher.com](https://themefisher.com)"
 legal_and_privacy = "[Legal](/legal) | [Privacy](/privacy)"
 
 # Instagram feed
