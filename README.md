@@ -52,3 +52,20 @@ https://github.com/eucalypto/public.how-to-human.com
 This GitHub repository is set up so that it executes a git hook on push that triggers the hoster to fetch the current state and host the files.
 
 So I can deploy the site simply by pushing to this GitHub repo. The webhook then triggers the netcup's git clone to pull the changes and deploy them to the web server.
+
+
+## Images workflow
+
+I'm designing the images in a Google presentation:
+
+https://docs.google.com/presentation/d/12sryvT-io2eQh4uBYjhR7d2yEEVCqvRJdtk5lkKuG8M/edit
+
+I can download the whole thing or individual slides as jpg or png. But the filesizes are larger than necessary.
+
+To convert them to webp use
+
+```sh
+cwebp Instagram-post.png -o Instagram-post.webp
+```
+
+I installed cwebp via `brew install webp`
