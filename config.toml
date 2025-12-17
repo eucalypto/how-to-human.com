@@ -94,14 +94,6 @@ legal_and_privacy = "[Legal](/legal) | [Privacy](/privacy)"
 #enable = true
 #expire_days = 2
 
-# social site
-#[[params.social]]
-#icon = "ti-facebook"
-#link = "https://facebook.com/themefisher"
-
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "https://twitter.com/ViktorPapara"
 
 [[params.social]]
 icon = "ti-linkedin"
