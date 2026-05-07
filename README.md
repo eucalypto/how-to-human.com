@@ -5,20 +5,15 @@
 After a git clone, run 
 
 ```bash
-bash setup-submodules.sh
+bash initial_setup.sh
 ```
 
-to setup the git submodules for the public generated files and the parsa theme.
+to setup the git submodule for the parsa theme, that is kept in a separate github repo.
 
 ## Hugo Version
-This blog is built with Hugo:
+This blog is built with Hugo (specific version see `.github/workflows/hugo.yml`)
 
-```bash
-hugo version
-hugo v0.152.2+extended+withdeploy darwin/arm64 BuildDate=2025-10-24T15:31:49Z VendorInfo=brew
-```
-
-I started simply installing Hugo with brew. Previously I used to download the binary, but not anymore.
+I started simply installing Hugo with brew.
 
 ## Local Development
 
@@ -32,26 +27,7 @@ This will build the website in `public/` and create a local server at http://loc
 
 ## Deployment
 
-Once you're satisfied with the locally served result of hugo, you need to run it again to generate the static files again for public hosting:
-
-```bash
-hugo build
-```
-
-Then go to public/ folder.
-Since we've set up the public files as a git submodule, you can commit and push your changes to the submodule with 
-
-```bash
-git commit -a
-git push
-```
-
-This will push the generated static site files to 
-https://github.com/eucalypto/public.how-to-human.com
-
-This GitHub repository is set up so that it executes a git hook on push that triggers the hoster to fetch the current state and host the files.
-
-So I can deploy the site simply by pushing to this GitHub repo. The webhook then triggers the netcup's git clone to pull the changes and deploy them to the web server.
+I'm using GitHub actions to build and deploy the site when pushed to main. See .github/workflows/hugo.yml for details
 
 
 ## Images workflow
