@@ -7,6 +7,7 @@ tags:
 - "Worldview"
 - "nihilism"
 - "naturalsim"
+- "virtual-systems"
 ---
 
 This is strongly based on my world view. You might disagree and that's totally fine.
